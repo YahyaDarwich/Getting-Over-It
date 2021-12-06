@@ -1,0 +1,127 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  --main-blue: #3f51b5;
+  --main-gray: rgb(233, 233, 233);
+}
+body {
+  margin: 0px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+}
+.navbar {
+  background-color: #333;
+}
+li {
+  border-right: 0.1px solid gray;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main-div > h1 {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: var(--main-blue);
+  text-transform: capitalize;
+}
+.main-div {
+  text-align: center;
+  background-color: var(--main-gray);
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+}
+.main-div img:last-child {
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+.main-div > img {
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+}
+.content {
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+}
+.content p {
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+.content h2 {
+  color: var(--main-blue);
+  text-transform: capitalize;
+}
+.footer {
+  background-color: #333;
+  padding: 10px;
+  color: gray;
+  border-top: 2px solid gray;
+}
+.comment-section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #333;
+}
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  height: 400px;
+  margin-left: 5%;
+  color: gray;
+  width: 410px;
+  font-size: 1rem;
+}
+.comment-form input {
+  width: 300px;
+  background-color: var(--main-gray);
+  border: 0.1px solid gray;
+  margin-bottom: 10px;
+  height: 20px;
+}
+.comment-form textarea {
+  width: 400px;
+  background-color: var(--main-gray);
+  margin-bottom: 10px;
+  height: 50px;
+}
+label p {
+  margin: 0px;
+}
+.comment-form > div {
+  background-color: var(--main-gray);
+  padding: 8px;
+  border-left: 5px var(--main-blue) solid;
+  width: 385px;
+}
+.comment-form h3 {
+  color: var(--main-blue);
+}
+.comment-form button {
+  background-color: var(--main-blue);
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  border: 0px;
+}
